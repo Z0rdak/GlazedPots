@@ -1,0 +1,20 @@
+{
+  "block.glazedpots.black_glazed_flower_pot": "Schwarz glasierter Blumentopf",
+  "block.glazedpots.blue_glazed_flower_pot": "Blau glasierter Blumentopf",
+  "block.glazedpots.brown_glazed_flower_pot": "Braun glasierter Blumentopf",
+  "block.glazedpots.cyan_glazed_flower_pot": "Türkis glasierter Blumentopf",
+  "block.glazedpots.gray_glazed_flower_pot": "Grau glasierter Blumentopf",
+  "block.glazedpots.green_glazed_flower_pot": "Grün glasierter Blumentopf",
+  "block.glazedpots.light_blue_glazed_flower_pot": "Hellblau glasierter Blumentopf",
+  "block.glazedpots.light_gray_glazed_flower_pot": "Hellgrau glasierter Blumentopf",
+  "block.glazedpots.lime_glazed_flower_pot": "Hellgrün glasierter Blumentopf",
+  "block.glazedpots.magenta_glazed_flower_pot": "Magenta glasierter Blumentopf",
+  "block.glazedpots.orange_glazed_flower_pot": "Orange glasierter Blumentopf",
+  "block.glazedpots.pink_glazed_flower_pot": "Rosa glasierter Blumentopf",
+  "block.glazedpots.purple_glazed_flower_pot": "Lila glasierter Blumentopf",
+  "block.glazedpots.red_glazed_flower_pot": "Rot glasierter Blumentopf",
+  "block.glazedpots.white_glazed_flower_pot": "Weiß glasierter Blumentopf",
+  "block.glazedpots.yellow_glazed_flower_pot": "Gelb glasierter Blumentopf",
+  "itemGroup.glazedpots": "Glazed Pots",
+  "advancements.glazedpots.desc": "Glazed Pots Mod Advancements"
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "de.z0rdak.glazedpots.mixin",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "MixinWanderingTraderEntity"
+  ],
+  "client": [],
+  "server": []
+}

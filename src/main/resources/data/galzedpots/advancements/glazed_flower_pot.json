@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_glazed_pot": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "glazedpots:glazed_pots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.glazedpots.get_pot.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "glazedpots:white_glazed_flower_pot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.glazedpots.get_pot.title"
+    }
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "requirements": [
+    [
+      "get_glazed_pot"
+    ]
+  ]
+}

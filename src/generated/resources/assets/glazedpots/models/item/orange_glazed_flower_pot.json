@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "glazedpots:item/orange_glazed_flower_pot"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "glazedpots:white_glazed_flower_pot"
+    },
+    "title": {
+      "translate": "itemGroup.glazedpots"
+    },
+    "description": {
+      "translate": "advancements.glazedpots.desc"
+    },
+    "background": "minecraft:textures/block/terracotta.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "glazedpots:root",
+  "criteria": {
+    "flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "glazedpots:glazed_pot"
+          }
+        ]
+      }
+    }
+  }
+}

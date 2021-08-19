@@ -1,0 +1,23 @@
+{
+  "block.glazedpots.black_glazed_flower_pot": "Black Glazed Flower Pot",
+  "block.glazedpots.blue_glazed_flower_pot": "Blue Glazed Flower Pot",
+  "block.glazedpots.brown_glazed_flower_pot": "Brown Glazed Flower Pot",
+  "block.glazedpots.cyan_glazed_flower_pot": "Cyan Glazed Flower Pot",
+  "block.glazedpots.gray_glazed_flower_pot": "Gray Glazed Flower Pot",
+  "block.glazedpots.green_glazed_flower_pot": "Green Glazed Flower Pot",
+  "block.glazedpots.light_blue_glazed_flower_pot": "Light Blue Glazed Flower Pot",
+  "block.glazedpots.light_gray_glazed_flower_pot": "Light Gray Glazed Flower Pot",
+  "block.glazedpots.lime_glazed_flower_pot": "Lime Glazed Flower Pot",
+  "block.glazedpots.magenta_glazed_flower_pot": "Magenta Glazed Flower Pot",
+  "block.glazedpots.orange_glazed_flower_pot": "Orange Glazed Flower Pot",
+  "block.glazedpots.pink_glazed_flower_pot": "Pink Glazed Flower Pot",
+  "block.glazedpots.purple_glazed_flower_pot": "Purple Glazed Flower Pot",
+  "block.glazedpots.red_glazed_flower_pot": "Red Glazed Flower Pot",
+  "block.glazedpots.white_glazed_flower_pot": "White Glazed Flower Pot",
+  "block.glazedpots.yellow_glazed_flower_pot": "Yellow Glazed Flower Pot",
+  "itemGroup.glazedpots": "Glazed Pots",
+  "advancements.glazedpots.get_pot.description": "Obtain a Glazed Flower Pot!",
+  "advancements.glazedpots.get_pot.title": "Pretty Pot",
+  "advancements.glazedpots.pot_collector.description": "Obtain all 16 glazed flower pot variations!",
+  "advancements.glazedpots.pot_collector.title": "Pot Collector"
+}

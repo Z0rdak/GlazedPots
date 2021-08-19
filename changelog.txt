@@ -1,0 +1,18 @@
+1.16.5-0.0.6.0
+* Villager trades
+* Configuration for Villager trades and Wandering Trader trades
+1.16.5-0.0.5.0
+* GlazedFlowerPotBlock class
+1.16.5-0.0.4.0
+* WorldData for CollectedPots
+* Trigger for collected Pots
+* Advancement for collecting all glazed flower pot variants
+1.16.5-0.0.3.0
+* Wandering Trader trades
+* Advancement for obtaining a glazed flower pot
+1.16.5-0.0.2.0
+* DataGenerators (Items, Tags)
+* Tags
+1.16.5-0.0.1.0
+* Textures, Blockstates, I18n, Models
+* Registries with Blocks and BlockItems
