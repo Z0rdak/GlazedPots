@@ -39,11 +39,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
-public class GlazedFlowerPot extends FlowerPotBlock {
+public class GlazedFlowerPotBlock extends FlowerPotBlock {
 
     protected static final VoxelShape SHAPE = Block.box(5.0D, 0.0D, 5.0D, 11.0D, 6.0D, 11.0D);
 
-    public GlazedFlowerPot( ) {
-        super(null, () -> Blocks.AIR, AbstractBlock.Properties.of(Material.DECORATION).instabreak().noOcclusion());
+    public GlazedFlowerPotBlock(@Nullable Supplier<FlowerPotBlock> emptyPot, Block block) {
+        super(emptyPot, () -> block, AbstractBlock.Properties.of(Material.DECORATION).instabreak().noOcclusion());
+
+        if(emptyPot != null) {
+            emptyPot.get().addPlant(this.getContent().getRegistryName(), () -> this);
+        }
     }
 }
