@@ -1,5 +1,6 @@
 package de.z0rdak.glazedpots;
 
+import de.z0rdak.glazedpots.data.client.RenderTypeLookupGlazedFlowerPots;
 import de.z0rdak.glazedpots.register.ModBlocks;
 import de.z0rdak.glazedpots.register.ModItems;
 import net.minecraft.block.Block;
@@ -35,13 +36,18 @@ public class GlazedPots {
     public static final ItemGroup GLAZED_POTS_TAB = new ItemGroup(MOD_ID) {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.GLAZED_FLOWER_POT_ITEMS_BY_COLOR.get("white").asItem());
+            return new ItemStack(ModItems.GLAZED_FLOWER_POT_ITEMS_BY_COLOR.get("black").asItem());
         }
     };
     
     public GlazedPots() {
         MinecraftForge.EVENT_BUS.register(this);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         ModBlocks.register();
+    }
+
+    private void doClientStuff(final FMLClientSetupEvent event) {
+        RenderTypeLookupGlazedFlowerPots.doClientStuff(event);
     }
 
     // TODO: stat for unique glazed pots collected
