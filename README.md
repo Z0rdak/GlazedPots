@@ -1,6 +1,6 @@
 # Glazed Pots
 
-** NOTE: This mod is still in development! You can get it on [Curseforge](https://www.curseforge.com/minecraft/mc-mods/glazedpots) **
+NOTE: This mod is still in development! You can get it on [Curseforge](https://www.curseforge.com/minecraft/mc-mods/glazedpots)
 
 ## General information
 
