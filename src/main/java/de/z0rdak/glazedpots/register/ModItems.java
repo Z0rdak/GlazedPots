@@ -1,9 +1,7 @@
 package de.z0rdak.glazedpots.register;
 
 import de.z0rdak.glazedpots.GlazedPots;
-import de.z0rdak.glazedpots.block.GlazedFlowerPot;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
