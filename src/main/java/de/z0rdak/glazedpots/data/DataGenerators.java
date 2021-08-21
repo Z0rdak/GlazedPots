@@ -18,14 +18,12 @@ public class DataGenerators {
         DataGenerator gen = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
-        GlazedFlowerPotBlockModelProvider.registerBlockModels(existingFileHelper);
-
         gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
-        gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
+        //gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
 
         ModBlockTagsProvider blockTagsProvider = new ModBlockTagsProvider(gen, existingFileHelper);
         gen.addProvider(blockTagsProvider);
         gen.addProvider(new ModItemTagsProvider(gen, blockTagsProvider, existingFileHelper));
-        gen.addProvider(new ModLootTableProvider(gen));
+        //gen.addProvider(new ModLootTableProvider(gen));
     }
 }
