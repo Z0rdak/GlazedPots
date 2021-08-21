@@ -2,15 +2,11 @@ package de.z0rdak.glazedpots.data.client;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
-import de.z0rdak.glazedpots.block.GlazedFlowerPot;
+import de.z0rdak.glazedpots.GlazedPots;
 import de.z0rdak.glazedpots.register.ModBlocks;
-import de.z0rdak.glazedpots.register.ModTags;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowerPotBlock;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.LootTableProvider;
-import net.minecraft.data.TagsProvider;
 import net.minecraft.data.loot.BlockLootTables;
 import net.minecraft.loot.*;
 import net.minecraft.util.ResourceLocation;
@@ -42,9 +38,13 @@ public class ModLootTableProvider extends LootTableProvider {
     public static class ModBlockLootTables extends BlockLootTables {
         @Override
         protected void addTables() {
-            ModBlocks.REGISTERED_BLOCKS.forEach((RegistryObject<GlazedFlowerPot> block) -> {
-                dropSelf(block.get());
-            });
+            //ModBlocks.REGISTERED_GLAZED_FLOWER_POT_BY_COLOR.forEach((color, block) -> {
+            //    dropSelf(block.get());
+            //});
+
+            //ModBlocks.REGISTERED_POTTED_POTS_BY_NAME.forEach((resourceLoc, block) -> {
+            //    dropPottedContents(RegistryObject.of(resourceLoc, ForgeRegistries.BLOCKS).get());
+            //});
         }
 
         @Override
