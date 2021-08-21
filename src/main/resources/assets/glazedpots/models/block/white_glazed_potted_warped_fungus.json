@@ -1,0 +1,6 @@
+{
+  "parent": "glazedpots:block/white_glazed_flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/warped_fungus"
+  }
+}

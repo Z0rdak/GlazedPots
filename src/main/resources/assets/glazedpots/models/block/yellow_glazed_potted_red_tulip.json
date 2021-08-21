@@ -1,0 +1,6 @@
+{
+  "parent": "glazedpots:block/yellow_glazed_flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/red_tulip"
+  }
+}

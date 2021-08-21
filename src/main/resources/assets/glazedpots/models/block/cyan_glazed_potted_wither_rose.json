@@ -1,0 +1,6 @@
+{
+  "parent": "glazedpots:block/cyan_glazed_flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/wither_rose"
+  }
+}

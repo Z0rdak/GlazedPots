@@ -1,0 +1,6 @@
+{
+  "parent": "glazedpots:block/purple_glazed_flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/dark_oak_sapling"
+  }
+}
